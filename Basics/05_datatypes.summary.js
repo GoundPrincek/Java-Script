@@ -52,5 +52,6 @@ let myclassesName = mycollegeName
 
 myclassesName="Pem school"
 console.log(myclassesName);
-console.log(mycollegeName);
+console.log(mycollegeName );
 
+ 
