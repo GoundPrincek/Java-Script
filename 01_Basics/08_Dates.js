@@ -15,7 +15,7 @@ let myCreatedDate= new Date("07,24,2005")
 console.log(myCreatedDate.toLocaleString());
 
 let mytimeStamp = Date.now()
-
+       //******************Time************/
 console.log(mytimeStamp);
 console.log(myCreatedDate.getTime())
 console.log(Math.floor(Date.now()/1000));
