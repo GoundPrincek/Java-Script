@@ -56,9 +56,7 @@ console.log(real_another_array2);
 
 
 
-
 console.log(Array.isArray("prince"));
 console.log(Array.from("Prince"));
 
 console.log(Array.from({name :" Prince"})); //this is very interesting
-
