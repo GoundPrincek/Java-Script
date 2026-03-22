@@ -22,11 +22,13 @@ console.log(typeof juser[mySyms]);
 
 juser.email="goundpriyanshu.com"
 // Object.freeze(juser)
-juser.name="priyanshu"
+// juser.name="priyanshu"
 console.log(juser);
 
 juser.greeting = function(){
-    console.log("Hello Prince");
+    console.log(`Hello Jsuser,${this.name}`);
     
 }
-console.log(juser.greeting);
+console.log(juser.greeting);//important diffrence
+console.log(juser.greeting());
+
