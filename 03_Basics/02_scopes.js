@@ -12,6 +12,35 @@ if(true){
 
 // console.log(a);
 // console.log(b);
-console.log(c);
+//console.log(c);
 
 //*****Before writing it see one moretime the lecture***** */
+
+function one (){
+    const username ="Prince";
+
+    function two(){
+        const website ="Youtube"
+        console.log(username);
+        
+    }
+    //  console.log(website);
+   // two()
+}
+
+//one ()
+
+//******************** Intresting **************************/
+
+function addone(num){
+
+    return num +1
+}
+
+addone(5)
+   
+const addtwo =function(num){
+    return num +2   
+}
+
+addtwo(5)
