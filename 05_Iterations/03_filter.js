@@ -53,6 +53,13 @@ const books = [
 ];
 
 
-const newBooks = books.filter((rating) => rating>4)
+// const Bookrating = books.filter((RT) => { 
+//  return RT.rating >= 4
+// })
 
-console.log(newBooks);
+//console.log (Bookrating);
+
+
+const Bookprice = books.filter((price) => price.price >= 600)
+
+console.log(Bookprice);
