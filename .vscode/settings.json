@@ -13,5 +13,6 @@
   "github.copilot.autocomplete": false,
   "[javascript]": {
     "editor.suggest.enabled": true
-  }
+  },
+  "liveServer.settings.port": 5502
 }
