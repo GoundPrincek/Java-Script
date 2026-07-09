@@ -42,14 +42,14 @@ The purpose of this repository is to stay consistent, improve problem-solving sk
 - [x] Conditional Statements
 - [x] Loops
 - [x] Functions
-- [ ] Arrays
-- [ ] Objects
-- [ ] Scope & Closures
-- [ ] Error Handling
+- [x] Arrays
+- [x] Objects
+- [x] Scope & Closures
+- [x] Error Handling
 
 ### Browser JavaScript
 
-- [ ] DOM Manipulation
+- [x] DOM Manipulation
 - [ ] Events
 - [ ] Local Storage
 - [ ] Fetch API
