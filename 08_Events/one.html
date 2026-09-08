@@ -4,8 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Html Events</title>
+    <link rel="stylesheet" href="one.js">
 </head>
 <body>
-    
+    <button id="button">Click Me</button>
 </body>
+<script>
+    // document.getElementById("button").onclick=function(){  // this is one of the way to write the event code but not best one
+    //     alert("The button is clicked");
+    // }
+
+    document.getElementById("button").addEventListener("click",function(e){
+        alert("the button is clicked")
+    },false) //in this we added the event listner 
+</script>
 </html>
+
+//Types of Events
+1.TimeStamp:-
