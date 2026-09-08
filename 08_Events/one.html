@@ -20,5 +20,23 @@
 </script>
 </html>
 
-//Types of Events
-1.TimeStamp:-
+//Types of Events(Learn this type or see form document)
+1.TimeStamp:- This is eventobject retuns the time (milisec) at which the event was created
+2.preventdefault:- this is use stop the default function of the browser
+3.target: event.target — The element that originated the event (where the user actually clicked or interacted).
+4.toElement:
+5.sourceElement
+6.currentTarget
+7.client(X,Y)
+8.sourse(X,Y)
+
+#Event Propogation
+<!-- 
+document.getElementById("button").addEventListener("click",function(e){
+        alert("the button is clicked")
+    },false) --> 
+
+False ->bubbling
+True -> capturing
+Event Bubbling => In this the event start form the deepest layer(target)
+Event capture => Event start form the outermost layer(target)
