@@ -1,0 +1,25 @@
+*{
+margin:0%;
+padding:0%;
+box-sizing:border-box;
+}
+
+html,body{
+height:100%;
+width:100%;
+}
+
+body{
+    text-align: center;
+    justify-content: center;
+    padding:2%;
+}
+
+button{
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    background-color: rgb(153, 18, 119);
+    color: aliceblue;
+    cursor: pointer;
+}
