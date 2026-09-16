@@ -50,7 +50,7 @@ The purpose of this repository is to stay consistent, improve problem-solving sk
 ### Browser JavaScript
 
 - [x] DOM Manipulation
-- [ ] Events
+- [x] Events
 - [ ] Local Storage
 - [ ] Fetch API
 
