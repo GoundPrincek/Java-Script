@@ -9,8 +9,18 @@
     
 </body>
 <script>
-  const requestUrl = 'https://api.github.com/users/g'
+  const requestUrl = 'https://api.github.com/users/GoundPrincek'
   const Xhr = new XMLHttpRequest();
-  xhr.open('GET','')
+  Xhr.open('GET',requestUrl)
+  Xhr.onreadystatechange = function (){
+    console.log(Xhr.readyState);
+    if(Xhr.readyState === 4) {
+      const data = JSON.parse(this.responseText);
+      console.log(typeof data);
+      console.log(data.followers)
+    }
+  }
+  console.log(Xhr.readyState);
+  Xhr.send()
 </script>
 </html>
