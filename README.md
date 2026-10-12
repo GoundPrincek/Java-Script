@@ -51,12 +51,12 @@ The purpose of this repository is to stay consistent, improve problem-solving sk
 
 - [x] DOM Manipulation
 - [x] Events
-- [ ] Local Storage
-- [ ] Fetch API
+- [x] Local Storage
+- [x] Fetch API
 
 ### Advanced JavaScript
 
-- [ ] Promises
+- [x] Promises
 - [ ] Async/Await
 - [ ] ES6+ Features
 - [ ] Modules
