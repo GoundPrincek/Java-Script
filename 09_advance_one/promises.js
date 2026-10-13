@@ -22,3 +22,43 @@ new Promise(function(resolve , reject){
     console.log("Async 2 Resolved");
     
 })
+
+const promiseThree = new Promise(function(resolve , reject){
+    setTimeout(function(){
+        resolve({userName: "Prince", email:"Prince.@gmail.com"})
+        
+    }, 1000);
+})
+
+promiseThree.then(function(user){
+    console.log(user);
+})
+
+const promiseFour = new Promise(function(resolve, reject){
+    setTimeout(function(){
+        let error = false
+        if(!error){
+            resolve({username:"prince" , password:8983765583})
+        }else{
+            reject("ERROR:Something went worng")
+        }
+    },1000)
+
+})
+
+const username = promiseFour
+.then((user)=>{
+    console.log(user);
+    return user.username
+})
+.then((username)=>{
+    console.log(username);
+})
+.catch(function(error){
+    console.log(error);  
+})
+.finally(()=>{
+    console.log("There promise is ether resolved or rejected");
+})
+
+console.log(username);
