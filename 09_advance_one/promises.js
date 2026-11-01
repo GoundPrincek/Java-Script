@@ -77,3 +77,17 @@ async function consumePromiseFive() {
 }
 
 consumePromiseFive();
+
+async function getAllUser() {
+  try{
+    const response = await fetch('https://jsonplaceholder.typicode.com/users') //in this there are some example data of the random user
+    // console.log(response);
+    const data= await response.json()
+    console.log(data);
+    }catch(error){
+        console.log('E: ', error);
+        
+    }
+}
+
+getAllUser();
