@@ -36,7 +36,7 @@ promiseThree.then(function(user){
 
 const promiseFour = new Promise(function(resolve, reject){
     setTimeout(function(){
-        let error = false
+        let error = true
         if(!error){
             resolve({username:"prince" , password:8983765583})
         }else{
@@ -62,3 +62,23 @@ const username = promiseFour
 })
 
 console.log(username);
+
+
+
+const promiseFive = new Promise(function(resolve , reject){
+    setTimeout(function(){
+        let error = true
+        if(!error){
+            resolve({username:"username" , password:8983765583})
+        }else{
+            reject("ERROR:JS went wrong")
+        }
+    },1000)
+})
+
+async function consumePromiseFive (){
+    const response = await promiseFive
+    console.log(response);  
+}
+
+consumePromiseFive()
